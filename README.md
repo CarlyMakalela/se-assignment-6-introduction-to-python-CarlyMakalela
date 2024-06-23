@@ -7,7 +7,7 @@ Answer the following questions based on your understanding of Python programming
 
  Questions:
 
-1. Python Basics:
+## 1. Python Basics:
    - What is Python, and what are some of its key features that make it popular among developers? Provide examples of use cases where Python is particularly effective.
 
    ### What is Python?
@@ -30,7 +30,7 @@ Python is a high-level, interpreted programming language that is extremely popul
 4. **Game Development**: While not as common as other languages in this field, Python can be used for game development. Libraries like Pygame make it possible to create simple games.
 5. **IoT and Hardware Projects**: Python is used in IoT projects, especially with the Raspberry Pi. You can write Python scripts to control hardware components and collect data from sensors.
 
-2. Installing Python:
+## 2. Installing Python:
    - Describe the steps to install Python on your operating system (Windows, macOS, or Linux). Include how to verify the installation and set up a virtual environment.
 
 ### How to Install Python on Your Operating System
@@ -58,7 +58,7 @@ Check pip: pip usually comes with Python, but just to be sure, type pip --versio
    - Use 'python -m venv myenv' to create a virtual environment named 'myenv'.
    - Activate the virtual environment by running 'myenv\Scripts\activate', and deactivate by typing 'deactivate'.
 
-3. Python Syntax and Semantics:
+## 3. Python Syntax and Semantics:
    - Write a simple Python program that prints "Hello, World!" to the console. Explain the basic syntax elements used in the program.
 
 ### Python Program: Hello, World!
@@ -83,7 +83,7 @@ print("Hello, World!")
 
 When you run this code, Python executes the `print` function, which takes the string `"Hello, World!"` and displays it on the console. 
 
-4. Data Types and Variables:
+## 4. Data Types and Variables:
    - List and describe the basic data types in Python. Write a short script that demonstrates how to create and use variables of different data types.
 
 ### Basic Data Types in Python
@@ -183,7 +183,7 @@ print("Unique numbers:", unique_numbers, "| Type:", type(unique_numbers))
 
 
 
-5. Control Structures:
+## 5. Control Structures:
    - Explain the use of conditional statements and loops in Python. Provide examples of an `if-else` statement and a `for` loop.
 
 ### Conditional Statements and Loops in Python
@@ -251,7 +251,7 @@ while count < 5:
 - `print("Count is:", count)` prints the current count.
 - `count += 1` increments the counter.
 
-6. Functions in Python:
+## 6. Functions in Python:
    - What are functions in Python, and why are they useful? Write a Python function that takes two arguments and returns their sum. Include an example of how to call this function.
 
 #### What are Functions and Why are They Useful?
@@ -304,7 +304,7 @@ print("The sum is:", result)
 ```
 The sum is: 8
 ```
-7. Lists and Dictionaries:
+## 7. Lists and Dictionaries:
    - Describe the differences between lists and dictionaries in Python. Write a script that creates a list of numbers and a dictionary with some key-value pairs, then demonstrates basic operations on both.
 
 ### Differences Between Lists and Dictionaries in Python
@@ -367,7 +367,7 @@ print("Updated person dictionary:", person)
   - `person["country"] = "USA"`: Adds the key `"country"` with the value `"USA"` to the dictionary `person`.
 
 
-8. Exception Handling:
+## 8. Exception Handling:
    - What is exception handling in Python? Provide an example of how to use `try`, `except`, and `finally` blocks to handle errors in a Python script.
 
 #### Understanding Exception Handling
@@ -413,7 +413,7 @@ Error: Division by zero!
 Execution completed.
 ```
 
-9. Modules and Packages:
+## 9. Modules and Packages:
    - Explain the concepts of modules and packages in Python. How can you import and use a module in your script? Provide an example using the `math` module.
 
 #### Understanding Modules:
@@ -467,7 +467,7 @@ Factorial of 5 is: 120
 The sine of 45 degrees is: 0.7071067811865475
 ```
 
-10. File I/O:
+## 10. File I/O:
     - How do you read from and write to files in Python? Write a script that reads the content of a file and prints it to the console, and another script that writes a list of strings to a file.
 
 #### Reading from a File:
